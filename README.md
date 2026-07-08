@@ -1,81 +1,93 @@
-# HelpDesk
+# Help Desk
 
-**A help desk ticketing system designed to demonstrate IT support workflow, ticket tracking, prioritisation, and technician dashboards.**
+**A simple help desk ticketing system built with C# and ASP.NET Core.**
 
-> Status: Planning / In Development
+This is a student portfolio project. The goal is to show that I understand how a basic IT support ticketing system works and that I can build a small working web application from start to finish.
 
----
-
-## Overview
-
-HelpDesk is the flagship ject in this portfolio. It simulates how an IT support team receives, manages, prioritises, and resolves user support tickets.
-
-This ject is part of my IT Operations Portfolio and is aimed at building practical skills for entry-level IT support, desktop support, networking, and junior systems roles.
+> Status: MVP Build
 
 ---
 
-## Planned Features
+## What the App Does
 
-- User login and role-based access
-- Create, view, update, and close tickets
-- Ticket priority levels
-- Ticket categories
-- Technician assignment workflow
-- Ticket comments and status history
-- Dashboard reporting
-- SQLite database
+The app lets a support team:
+
+- view a dashboard
+- create a support ticket
+- open a ticket and read the details
+- update the ticket status
+- add technician notes/comments
+- see ticket priority and category
 
 ---
 
 ## Tech Stack
 
 - C#
-- .NET
+- .NET 8
 - ASP.NET Core
-- Entity Framework Core
-- SQLite
 - HTML
 - CSS
-- JavaScript
+- JSON file storage
+
+I used JSON storage for this first version so the project is easy to run without needing SQL Server. A future version can use SQLite or SQL Server.
 
 ---
 
-## MVP Roadmap
+## How to Run
 
-- [ ] Create initial ject structure
-- [ ] Build the first working feature
-- [ ] Add local data storage
-- [ ] Add user-friendly output or interface
-- [ ] Add screenshots
-- [ ] Imve documentation
+Make sure the .NET 8 SDK is installed.
 
----
+Open a terminal in the project folder and run:
 
-## What This ject Demonstrates
+```bash
+dotnet run
+```
 
-- Practical IT troubleshooting mindset
-- Ability to plan and document technical work
-- Understanding of real support-team blems
-- Development discipline through GitHub documentation and future commits
+Then open the localhost link shown in the terminal.
 
 ---
 
-## Repository Structure
+## Project Structure
 
 ```text
 HelpDesk/
-├── src/
-│   └── application source code
+├── Models/
+│   ├── Ticket.cs
+│   ├── TicketComment.cs
+│   ├── TicketPriority.cs
+│   └── TicketStatus.cs
+├── Services/
+│   └── TicketService.cs
+├── wwwroot/
+│   └── css/
+│       └── site.css
 ├── docs/
 │   ├── roadmap.md
-│   └── notes.md
+│   └── interview-notes.md
 ├── screenshots/
-│   └── ject screenshots
+├── Program.cs
+├── HelpDesk.csproj
 └── README.md
 ```
 
 ---
 
-## Learning Goal
+## What I Learned
 
-The goal is not just to create code, but to understand how the ject works well enough to explain it clearly in an interview.
+- how to create a simple ASP.NET Core web app
+- how to build routes for pages and forms
+- how to use C# models for tickets and comments
+- how to save and load data from a JSON file
+- how ticket status, priority, and work notes can be used in a help desk workflow
+
+---
+
+## Future Improvements
+
+- add search and filters
+- add technician assignment
+- replace JSON storage with SQLite
+- add user login
+- add screenshots
+- add basic automated tests
