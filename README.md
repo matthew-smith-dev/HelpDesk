@@ -1,4 +1,4 @@
-# HelpDeskPro
+# HelpDesk
 
 **A help desk ticketing system designed to demonstrate IT support workflow, ticket tracking, prioritisation, and technician dashboards.**
 
@@ -8,9 +8,9 @@
 
 ## Overview
 
-HelpDeskPro is the flagship project in this portfolio. It simulates how an IT support team receives, manages, prioritises, and resolves user support tickets.
+HelpDesk is the flagship ject in this portfolio. It simulates how an IT support team receives, manages, prioritises, and resolves user support tickets.
 
-This project is part of my IT Operations Portfolio and is aimed at building practical skills for entry-level IT support, desktop support, networking, and junior systems roles.
+This ject is part of my IT Operations Portfolio and is aimed at building practical skills for entry-level IT support, desktop support, networking, and junior systems roles.
 
 ---
 
@@ -42,20 +42,20 @@ This project is part of my IT Operations Portfolio and is aimed at building prac
 
 ## MVP Roadmap
 
-- [ ] Create initial project structure
+- [ ] Create initial ject structure
 - [ ] Build the first working feature
 - [ ] Add local data storage
 - [ ] Add user-friendly output or interface
 - [ ] Add screenshots
-- [ ] Improve documentation
+- [ ] Imve documentation
 
 ---
 
-## What This Project Demonstrates
+## What This ject Demonstrates
 
 - Practical IT troubleshooting mindset
 - Ability to plan and document technical work
-- Understanding of real support-team problems
+- Understanding of real support-team blems
 - Development discipline through GitHub documentation and future commits
 
 ---
@@ -63,14 +63,14 @@ This project is part of my IT Operations Portfolio and is aimed at building prac
 ## Repository Structure
 
 ```text
-HelpDeskPro/
+HelpDesk/
 ├── src/
 │   └── application source code
 ├── docs/
 │   ├── roadmap.md
 │   └── notes.md
 ├── screenshots/
-│   └── project screenshots
+│   └── ject screenshots
 └── README.md
 ```
 
@@ -78,4 +78,4 @@ HelpDeskPro/
 
 ## Learning Goal
 
-The goal is not just to create code, but to understand how the project works well enough to explain it clearly in an interview.
+The goal is not just to create code, but to understand how the ject works well enough to explain it clearly in an interview.
